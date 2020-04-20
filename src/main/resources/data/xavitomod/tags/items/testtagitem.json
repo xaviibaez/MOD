@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "xavitomod:example_item",
+        "xavitomod:xavito_item",
+        "minecraft:apple"
+    ]
+}

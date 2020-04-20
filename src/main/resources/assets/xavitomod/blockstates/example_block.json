@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model": "xavitomod:block/example_block" }	
+	}
+}

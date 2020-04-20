@@ -1,0 +1,14 @@
+{
+	 "item.xavitomod.example_item": "Example Item",
+	 "item.xavitomod.xavito_item": "Xavito Item",
+	 
+	 "item.xavitomod.example_sword": "Example Sword",
+	 "item.xavitomod.example_pickaxe": "Example Pickaxe",
+	 "item.xavitomod.example_shovel": "Example Shovel",
+	 "item.xavitomod.example_axe": "Example Axe",
+	 "item.xavitomod.example_hoe": "Example Hoe",
+	 
+	 "block.xavitomod.example_block": "Example Block",
+	 
+	 "itemGroup.tutorialtab": "Tutorial Tab"
+}

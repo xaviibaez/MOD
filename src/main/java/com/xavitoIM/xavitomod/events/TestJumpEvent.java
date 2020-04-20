@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 @Mod.EventBusSubscriber(modid = XavitoMod.MOD_ID, bus = Bus.FORGE)
 public class TestJumpEvent {
 
-	private static boolean activated = true;
+	private static boolean activated = false;
 	
 	@SubscribeEvent
 	public static void testJumpEvent(LivingJumpEvent event) {

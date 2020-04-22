@@ -6,11 +6,14 @@ import com.xavitoIM.xavitomod.XavitoMod;
 import com.xavitoIM.xavitomod.XavitoMod.TutorialItemGroup;
 import com.xavitoIM.xavitomod.objects.items.SpecialItem;
 
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Food;
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.Properties;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ShovelItem;
@@ -40,6 +43,12 @@ public class ItemInit {
 	public static final Item example_axe = null;
 	public static final Item example_hoe = null;
 	
+	//Armor
+	public static final Item example_helmet = null;
+	public static final Item example_chestplate = null;
+	public static final Item example_leggins = null;
+	public static final Item example_boots = null;
+	
 	@SubscribeEvent
 	public static void registerItems(final RegistryEvent.Register<Item> event) {
 		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MISC))
@@ -63,6 +72,13 @@ public class ItemInit {
 				.setRegistryName("example_axe"));
 		event.getRegistry().register(new HoeItem(ModItemTier.EXAMPLE, 5.0f, new Item.Properties().group(TutorialItemGroup.instance))
 				.setRegistryName("example_hoe"));
+		
+		//Armor
+		event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.HEAD, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_helmet"));
+		event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.CHEST, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_chestplate"));
+		event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.LEGS, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_leggins"));
+		event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.FEET, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_boots"));
+
 	}
 	
 	public enum ModItemTier implements IItemTier{

@@ -74,10 +74,10 @@ public class ItemInit {
 				.setRegistryName("example_hoe"));
 		
 		//Armor
-		event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.HEAD, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_helmet"));
-		event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.CHEST, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_chestplate"));
-		event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.LEGS, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_leggins"));
-		event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.FEET, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_boots"));
+		//event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.HEAD, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_helmet"));
+		//event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.CHEST, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_chestplate"));
+		//event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.LEGS, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_leggins"));
+		//event.getRegistry().register(new ArmorItem(ModArmorMaterial.TEST, EquipmentSlotType.FEET, new Item.Properties().group(TutorialItemGroup.instance)).setRegistryName("example_boots"));
 
 	}
 	
